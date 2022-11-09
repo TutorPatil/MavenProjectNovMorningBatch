@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="2" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="25778" started-at="2022-11-05T09:12:18 IST" finished-at="2022-11-05T09:12:43 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="25778" started-at="2022-11-05T09:12:18 IST" finished-at="2022-11-05T09:12:43 IST">
+      <class name="com.actitime.tests.FileUploadUsingAutoITAndRobot">
+        <test-method status="PASS" signature="beforeTestMethod()[pri:0, instance:com.actitime.tests.FileUploadUsingAutoITAndRobot@401e7803]" name="beforeTestMethod" is-config="true" duration-ms="11" started-at="2022-11-05T09:12:18 IST" finished-at="2022-11-05T09:12:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestMethod -->
+        <test-method status="PASS" signature="beforeClassMethod()[pri:0, instance:com.actitime.tests.FileUploadUsingAutoITAndRobot@401e7803]" name="beforeClassMethod" is-config="true" duration-ms="1" started-at="2022-11-05T09:12:18 IST" finished-at="2022-11-05T09:12:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClassMethod -->
+        <test-method status="PASS" signature="launchActiTimeApplication()[pri:0, instance:com.actitime.tests.FileUploadUsingAutoITAndRobot@401e7803]" name="launchActiTimeApplication" is-config="true" duration-ms="14722" started-at="2022-11-05T09:12:18 IST" finished-at="2022-11-05T09:12:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchActiTimeApplication -->
+        <test-method status="PASS" signature="fileUploadUsingAUtoIT()[pri:0, instance:com.actitime.tests.FileUploadUsingAutoITAndRobot@401e7803]" name="fileUploadUsingAUtoIT" duration-ms="9656" started-at="2022-11-05T09:12:32 IST" finished-at="2022-11-05T09:12:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fileUploadUsingAUtoIT -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.actitime.tests.FileUploadUsingAutoITAndRobot@401e7803]" name="closeBrowser" is-config="true" duration-ms="1313" started-at="2022-11-05T09:12:42 IST" finished-at="2022-11-05T09:12:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="afterClassMethod()[pri:0, instance:com.actitime.tests.FileUploadUsingAutoITAndRobot@401e7803]" name="afterClassMethod" is-config="true" duration-ms="1" started-at="2022-11-05T09:12:43 IST" finished-at="2022-11-05T09:12:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClassMethod -->
+        <test-method status="PASS" signature="afterTestMethod()[pri:0, instance:com.actitime.tests.FileUploadUsingAutoITAndRobot@401e7803]" name="afterTestMethod" is-config="true" duration-ms="1" started-at="2022-11-05T09:12:43 IST" finished-at="2022-11-05T09:12:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTestMethod -->
+      </class> <!-- com.actitime.tests.FileUploadUsingAutoITAndRobot -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

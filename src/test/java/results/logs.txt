@@ -1,0 +1,6 @@
+Logs for the current run 
+ This method will run before every testng.xml test
+ This method is will run before every class....
+ This method is will run after every class....
+ This method will run after every testng.xml test
+ ##### This is a listener method and this will run in at the end of entire suite####
