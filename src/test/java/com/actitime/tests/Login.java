@@ -82,6 +82,20 @@ public class Login extends BaseClass {
 		
 		
 	}
+	
+	@Test
+	public static void login_005() throws InterruptedException, IOException
+	{
+				
+		CommonUtils.loginToActitime();
+		writeInfoLogs("Chcking for the logout link post login");
+		boolean logoutLink = false;
+		logoutLink = driver.findElement(By.xpath(getLocatorDataFromMap("Home", "Logout_link"))).isDisplayed();
+		Assert.assertFalse(logoutLink, "The Logout link not seen Login_002 Failed");
+		
+		
+	}
+
 
 
 }
